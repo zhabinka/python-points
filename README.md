@@ -14,3 +14,5 @@ A SICP'ish Points implemented in Python using hexlet-pairs.
     100
     >>> points.get_y(p)
     200
+    >>> points.get_quadrant(p)
+    1
