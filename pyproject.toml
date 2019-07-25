@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-points"
-version = "0.1.0"
+version = "0.2.0"
 description = "A SICP'ish Points implemented in Python using hexlet-pairs"
 authors = ["Hexlet Team <info@hexlet.io>"]
 license = "ISC"

@@ -4,10 +4,10 @@
 
 from hexlet import pairs
 
-__all__ = (  # noqa: WPS317
+__all__ = (   # noqa: WPS317
     'make',
     'get_x', 'get_y',
-    'to_string', 'get_quadrant',
+    'to_string',
 )
 
 
@@ -29,16 +29,3 @@ def get_y(point: pairs.Pair) -> int:
 def to_string(point: pairs.Pair) -> str:
     """Return a string representation of the point."""
     return repr((get_x(point), get_y(point)))
-
-
-def get_quadrant(point: pairs.Pair) -> int:
-    """Return a quadrant number for the point."""
-    return {
-        (True, True): 1,
-        (False, True): 2,
-        (False, False): 3,
-        (True, False): 4,
-    }[(
-        get_x(point) > 0,
-        get_y(point) > 0,
-    )]

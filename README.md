@@ -10,8 +10,6 @@ A SICP'ish Points implemented in Python using hexlet-pairs.
     >>> p = points.make(100, 200)
     >>> print(points.to_string(p))
     (100, 200)
-    >>> points.get_quadrant(p)
-    1
     >>> points.get_x(p)
     100
     >>> points.get_y(p)
